@@ -73,8 +73,8 @@ def main():
         print(item)
 
     # Фильтрация комментариев с лайками больше 5
-    filtered_comments = filter_by_likes(data, min_likes=5)
-    print("\n🚩 Комментарии с количеством лайков больше 5:")
+    filtered_comments = filter_by_likes(data, min_likes=10)
+    print("\n🚩 Комментарии с количеством лайков больше 10:")
     for item in filtered_comments:
         print(item)
 
